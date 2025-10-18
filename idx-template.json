@@ -1,0 +1,20 @@
+{
+  "name": "Multi-Template Repository",
+  "description": "A collection of templates for various projects.",
+  "parameters": [
+    {
+      "name": "template",
+      "displayName": "Select a Template",
+      "description": "Choose which template you want to use for your new workspace.",
+      "type": "select",
+      "options": [
+        {
+          "value": "public-speaking",
+          "displayName": "Public Speaking AI Assistant",
+          "description": "A structured environment for crafting presentations with an AI partner."
+        }
+      ],
+      "default": "public-speaking"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Ignore common files
+.DS_Store
+*.log
+*.env
+.idx/contextvibes.nix

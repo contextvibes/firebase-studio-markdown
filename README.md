@@ -1,1 +1,0 @@
-# md-public-speaking

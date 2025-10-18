@@ -1,0 +1,15 @@
+// .markdownlint.jsonc
+// Configuration for the markdownlint linter.
+{
+  // Default all rules to true unless overridden here.
+  "default": true,
+
+  // MD013: Line length.
+  // This is disabled because Prettier is responsible for all line wrapping.
+  // Letting both tools manage this rule will cause conflicts.
+  "MD013": false,
+
+  // MD033: Inline HTML.
+  // Allow inline HTML (like the Firebase Studio button in the README).
+  "MD033": false
+}
