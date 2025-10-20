@@ -1,0 +1,25 @@
+{
+  "name": "AI-Powered Writing Templates",
+  "description": "A collection of templates designed for content creation with an AI partner. Start with the Public Speaking Assistant.",
+  "categories": [
+    "AI",
+    "Writing",
+    "Productivity",
+    "Presentations"
+  ],
+  "icon": "https://raw.githubusercontent.com/contextvibes/firebase-studio-markdown/5e8465e734c48a3862ad0056b3ff2ba741acb685/.idx/icon.png",
+  "publisher": "Context Vibes",
+  "params": [
+    {
+      "id": "template",
+      "name": "Select a Template",
+      "description": "Choose which template you want to use for your new workspace.",
+      "type": "enum",
+      "default": "public-speaking",
+      "options": {
+        "public-speaking": "Public Speaking AI Assistant"
+      },
+      "required": true
+    }
+  ]
+}
